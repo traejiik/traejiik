@@ -1,5 +1,5 @@
 ## Hi there 👋
-https://roadmap.sh/card/wide/6726af7331d65c235d49b5f0?variant=dark&roadmaps=full-stack%2Ccomputer-science
+[![roadmap.sh](https://roadmap.sh/card/wide/6726af7331d65c235d49b5f0?variant=dark&roadmaps=full-stack%2Ccomputer-science)](https://roadmap.sh)
 <!--
 **traejiik/traejiik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
