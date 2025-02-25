@@ -1,5 +1,7 @@
 ## Hi there 👋
-[[![roadmap.sh](https://roadmap.sh/card/tall/6726af7331d65c235d49b5f0?variant=dark)](https://roadmap.sh)](https://roadmap.sh/card/wide/6726af7331d65c235d49b5f0?variant=dark&roadmaps=full-stack)
+[![roadmap.sh](https://roadmap.sh/card/wide/6726af7331d65c235d49b5f0?variant=dark&roadmaps=full-stack)](https://roadmap.sh)
+
+[![visit my portfolio](https://anotidamunemo.netlify.app/)]
 <!--
 **traejiik/traejiik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
