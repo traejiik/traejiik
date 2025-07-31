@@ -1,6 +1,6 @@
 <h1 align="center"> Hey There 👋, I'm Anotida</h1>
 
-<a href="https://roadmap.sh" target="_blank"><img align="right" src="https://roadmap.sh/card/tall/6726af7331d65c235d49b5f0?variant=dark&roadmaps=%2Cfull-stack%2Csoftware-architect" alt="roadmap.sh"/></a>
+<a href="https://roadmap.sh"><img align="right" src="https://roadmap.sh/card/tall/6726af7331d65c235d49b5f0?variant=dark" alt="roadmap.sh"/></a>
 
 <h3 align="left">An aspiring FullStack Developer and Passionate Coder</h3>
 
