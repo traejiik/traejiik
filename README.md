@@ -59,6 +59,8 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
     <img src="https://github.com/traejiik/traejiik/blob/main/output/pin-cv-application.svg" />
   </a>
 </div>
+
+
 ---
  
 
