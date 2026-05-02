@@ -20,7 +20,7 @@ jobs:
         with:
           card: stats
           options: >-
-            username=${{ github.repository_owner }}
+            username=${{github.repository_owner}}
             &show_icons=true
             &include_all_commits=true
             &count_private=true
@@ -29,7 +29,7 @@ jobs:
             &title_color=58A6FF
             &text_color=C9D1D9
             &icon_color=58A6FF
-          path: profile/stats.svg
+          path: output/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
@@ -37,20 +37,20 @@ jobs:
         with:
           card: top-langs
           options: >-
-            username=${{ github.repository_owner }}
+            username=${{github.repository_owner}}
             &layout=compact
             &langs_count=10
             &bg_color=00000000
             &border_color=58A6FF
             &title_color=58A6FF
             &text_color=C9D1D9
-          path: profile/top-langs.svg
+          path: output/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add output/*.svg
           git commit -m "chore: update README cards" || exit 0
           git push
