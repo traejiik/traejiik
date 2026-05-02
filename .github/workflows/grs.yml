@@ -27,23 +27,15 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: "username=traejiik&layout=compact&langs_count=10&bg_color=00000000&border_color=58A6FF&title_color=58A6FF&text_color=C9D1D9"
+          options: "username=traejiik&layout=compact&langs_count=10&bg_color=00000000&border_color=00000000&title_color=58A6FF&text_color=C9D1D9"
           path: output/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Instock pin card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: "username=traejiik&repo=Instock&bg_color=00000000&border_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
-          path: output/pin-instock.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate weather-app pin card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: "username=traejiik&repo=weather-app&bg_color=00000000&border_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
+          options: "username=traejiik&repo=weather-app&bg_color=00000000&border_color=00000000&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
           path: output/pin-weather-app.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -51,7 +43,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: "username=traejiik&repo=cv-application&bg_color=00000000&border_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
+          options: "username=traejiik&repo=cv-application&bg_color=00000000&border_color=00000000&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
           path: output/pin-cv-application.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
