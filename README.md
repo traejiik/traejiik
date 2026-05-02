@@ -52,9 +52,6 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
 ### 🚀 Projects
  
 <div align="center">
-  <a href="https://github.com/traejiik/Instock">
-    <img src="https://github.com/traejiik/traejiik/blob/main/output/pin-instock.svg" />
-  </a>
   <a href="https://github.com/traejiik/weather-app">
     <img src="https://github.com/traejiik/traejiik/blob/main/output/pin-weather-app.svg" />
   </a>
