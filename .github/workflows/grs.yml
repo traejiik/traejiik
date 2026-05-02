@@ -1,28 +1,59 @@
-name: Update README cards
+name: Generate Stats SVGs
 
 on:
   schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
+    - cron: "0 6 * * *"  # runs daily at 6am UTC (offset from snake at midnight)
+  workflow_dispatch:      # lets you trigger it manually too
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Checkout repo
+        uses: actions/checkout@v3
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
-          path: output/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # fetch all branches including output
 
-      - name: Commit cards
+      - name: Fetch Stats SVGs
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add output/*.svg
-          git commit -m "Update README cards" || exit 0
-          git push
+          mkdir -p /tmp/stats-dist
+
+          # Stats card — transparent background, GitHub blue border
+          curl -fsSL -o /tmp/stats-dist/stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=traejiik&show_icons=true&include_all_commits=true&count_private=true&bg_color=00000000&border_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
+
+          # Top languages card — transparent background, GitHub blue border
+          curl -fsSL -o /tmp/stats-dist/top-langs.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=traejiik&layout=compact&langs_count=10&bg_color=00000000&border_color=58A6FF&title_color=58A6FF&text_color=C9D1D9"
+
+          # Streak card — transparent background, GitHub blue border
+          curl -fsSL -o /tmp/stats-dist/streak.svg \
+            "https://streak-stats.demolab.com?user=traejiik&background=00000000&border=58A6FF&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF"
+
+      - name: Commit SVGs to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Switch to output branch if it exists, otherwise create it as orphan
+          if git ls-remote --exit-code --heads origin output; then
+            git checkout output
+          else
+            git checkout --orphan output
+            git rm -rf . 2>/dev/null || true
+          fi
+
+          # Copy the generated SVGs
+          cp /tmp/stats-dist/stats.svg .
+          cp /tmp/stats-dist/top-langs.svg .
+          cp /tmp/stats-dist/streak.svg .
+
+          # Only commit if something changed
+          git add stats.svg top-langs.svg streak.svg
+          git diff --staged --quiet || git commit -m "chore: update stats SVGs"
+          git push origin output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
