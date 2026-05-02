@@ -37,7 +37,7 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
   <tr>
     <td valign="top">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=traejiik&theme=github-dark-blue&hide_border=false" />
-      <img src="https://github-readme-stats.vercel.app/api?username=traejiik&show_icons=true&theme=tokyonight" />
+      <img src="https://github.com/traejiik/traejiik/blob/main/output/stats.svg" />
       <img src="https://www.codewars.com/users/traejiik/badges/large" />
     </td>
     <td valign="top">
