@@ -33,7 +33,7 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
 
 ### 📊 GitHub Stats
 
-<table align="center" border="0" cellspacing="0" cellpadding="0">
+<table align="center">
   <tr>
     <td valign="top">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=traejiik&theme=github-dark-blue&hide_border=false" />
@@ -41,7 +41,7 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
       <img src="https://www.codewars.com/users/traejiik/badges/large" />
     </td>
     <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=traejiik&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" height="100%" />
+      <img src="https://github.com/traejiik/traejiik/blob/main/output/top-langs.svg" height="100%" />
       <img src="https://roadmap.sh/card/tall/6726af7331d65c235d49b5f0?variant=dark" />
     </td>
   </tr>
@@ -53,13 +53,13 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
  
 <div align="center">
   <a href="https://github.com/traejiik/Instock">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=traejiik&repo=Instock&theme=tokyonight&hide_border=true" />
+    <img src="https://github.com/traejiik/traejiik/blob/main/output/pin-instock.svg" />
   </a>
   <a href="https://github.com/traejiik/weather-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=traejiik&repo=weather-app&theme=tokyonight&hide_border=true" />
+    <img src="https://github.com/traejiik/traejiik/blob/main/output/pin-weather-app.svg" />
   </a>
   <a href="https://github.com/traejiik/cv-application">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=traejiik&repo=cv-application&theme=tokyonight&hide_border=true" />
+    <img src="https://github.com/traejiik/traejiik/blob/main/output/pin-cv-application.svg" />
   </a>
 </div>
 ---
