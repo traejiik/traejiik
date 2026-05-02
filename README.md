@@ -13,9 +13,7 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
 - 🔭 Working on **a bunch of React projects** and **The 100 Day Python Challenge**
 - 🌱 Currently leveling up in **React**
 - 💬 Ask me about **web dev, Python, or anything you think I'd know**
-- 📫 Reach me at: **[your email or link]**
-- 🌐 Check out my **[Portfolio](your-portfolio-link)**
-- ⚡ Fun fact: **[something interesting about you]**
+- 🌐 Check out my **[Portfolio](https://anotidamunemo.vercel.app)**
 
 ---
 
@@ -31,8 +29,6 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-> 🗑️ **Remove any badges that don't apply and add ones that do** — [find more at shields.io](https://shields.io)
-
 ---
 
 ### 📊 GitHub Stats
@@ -40,11 +36,13 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
 <table align="center">
   <tr>
     <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=traejiik&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" /><br/>
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=traejiik&theme=tokyonight&hide_border=true" />
+      <img src="https://github-readme-stats.vercel.app/api?username=traejiik&show_icons=true&theme=tokyonight" />
+      <img src="https://www.codewars.com/users/traejiik/badges/large" />
     </td>
     <td valign="top">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=traejiik&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" height="100%" />
+      <img src="https://roadmap.sh/card/tall/6726af7331d65c235d49b5f0?variant=dark" />
     </td>
   </tr>
 </table>
@@ -52,8 +50,6 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
 ---
 
 ### 🐍 Contribution Snake
-
-> ⚠️ **This animation requires a one-time GitHub Actions setup** — see the [platane/snk repo](https://github.com/platane/snk) for a 5-minute setup guide. Once running, replace the URL below with your own generated SVG.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
@@ -65,9 +61,8 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
 
 ### 🌐 Connect with Me
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](your-portfolio-link)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](your-twitter-url)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://anotidamunemo.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anotidamunemo21)
 
 ![Profile views](https://komarev.com/ghpvc/?username=traejiik&color=6AD3F7&style=flat-square&label=Profile+Views)
 
