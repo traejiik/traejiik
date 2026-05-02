@@ -27,8 +27,8 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: "username=traejiik&layout=compact&langs_count=10&bg_color=0000000&border_color=FFFFFF&title_color=58A6FF&text_color=C9D1D9"
-          path: output/top-langs.svg
+          options: "username=traejiik&layout=compact&langs_count=10&bg_color=00000000&border_color=FFFFFF&title_color=58A6FF&text_color=C9D1D9"
+          path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate weather-app pin card
