@@ -19,16 +19,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: >-
-            username=${{github.repository_owner}}
-            &show_icons=true
-            &include_all_commits=true
-            &count_private=true
-            &bg_color=00000000
-            &border_color=58A6FF
-            &title_color=58A6FF
-            &text_color=C9D1D9
-            &icon_color=58A6FF
+          options: "username=traejiik&show_icons=true&include_all_commits=true&count_private=true&bg_color=00000000&border_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
           path: output/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -36,14 +27,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: >-
-            username=${{github.repository_owner}}
-            &layout=compact
-            &langs_count=10
-            &bg_color=00000000
-            &border_color=58A6FF
-            &title_color=58A6FF
-            &text_color=C9D1D9
+          options: "username=traejiik&layout=compact&langs_count=10&bg_color=00000000&border_color=58A6FF&title_color=58A6FF&text_color=C9D1D9"
           path: output/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
