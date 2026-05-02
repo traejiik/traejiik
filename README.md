@@ -49,10 +49,26 @@ I'm an aspiring **Full Stack Developer** who loves turning ideas into things tha
 
 ---
 
+### 🚀 Projects
+ 
+<div align="center">
+  <a href="https://github.com/traejiik/Instock">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=traejiik&repo=Instock&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/traejiik/weather-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=traejiik&repo=weather-app&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/traejiik/cv-application">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=traejiik&repo=cv-application&theme=tokyonight&hide_border=true" />
+  </a>
+</div>
+---
+ 
+
 ### 🐍 Contribution Snake
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/traejiik/traejiik/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
 ---
