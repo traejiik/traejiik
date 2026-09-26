@@ -62,9 +62,6 @@ CS student at the **University of Debrecen**, finishing my BSc. I like software 
   <a href="https://github.com/traejiik/pocketbook">
     <img src="output/pin-pocketbook.svg" />
   </a>
-  <a href="https://github.com/traejiik/Instock">
-    <img src="output/pin-instock.svg" />
-  </a>
 </div>
 
 ---
