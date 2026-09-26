@@ -8,7 +8,7 @@
 
 ### 👨‍💻 About Me
 
-CS student at the **University of Debrecen**, finishing my BSc. I like software best once it's deployed and something depends on it — most of what I build runs on my own server, so I also own the CI, the backups and the debugging.
+CS student, finishing my BSc. I like software best once it's deployed and works the way its intended. Most of what I build runs on my own server, so I also own the CI, the backups and the debugging.
 
 - 🔭 Building **[Pocketbook](https://github.com/traejiik/pocketbook)** — a self-hosted personal finance app with local-LLM spending insights, in daily use
 - 🖥️ Running a **homelab** — five Docker stacks behind a reverse proxy, with CI-built images, backups and monitoring
