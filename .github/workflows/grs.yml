@@ -39,6 +39,14 @@ jobs:
           path: output/pin-pocketbook.svg
           token: ${{ secrets.GRS_TOKEN }}
 
+      - name: Generate Jellyfin-AniDoki pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: "username=traejiik&repo=jellyfin-anidoki&bg_color=00000000&border_color=FFFFFF&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
+          path: output/pin-anidoki.svg
+          token: ${{ secrets.GRS_TOKEN }}
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
