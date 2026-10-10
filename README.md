@@ -63,6 +63,11 @@ CS student, finishing my BSc. I like software best once it's deployed and works 
     <img src="output/pin-pocketbook.svg" />
   </a>
 </div>
+<div align="center">
+  <a href="https://github.com/traejiik/pocketbook">
+    <img src="output/pin-anidoki.svg" />
+  </a>
+</div>
 
 ---
 
