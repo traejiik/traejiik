@@ -58,16 +58,14 @@ CS student, finishing my BSc. I like software best once it's deployed and works 
 
 ### 🚀 Projects
 
-<div align="center">
-  <a href="https://github.com/traejiik/pocketbook">
-    <img src="output/pin-pocketbook.svg" />
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/traejiik/pocketbook">
-    <img src="output/pin-anidoki.svg" />
-  </a>
-</div>
+<p align="center">
+      <a href="https://github.com/traejiik/pocketbook">
+        <img src="output/pin-pocketbook.svg" width="49%" />
+      </a>
+      <a href="https://github.com/traejiik/jellyfin-anidoki">
+        <img src="output/pin-anidoki.svg" width="49%" />
+      </a>
+</p>
 
 ---
 
